@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>DevOpsWebApp</title>
+		<title>DevOpsWebApp Tomcat</title>
 	</head>
 	<body align=center>
 		<h2>Hello, DevOps World!!!</h2>
