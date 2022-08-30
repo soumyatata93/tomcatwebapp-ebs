@@ -1,11 +1,11 @@
 <html>
 	<head>
-		<title>LoginPage - DevOps</title>
+		<title>LoginPage - DevOps new</title>
 	</head>
 	<body align=center>
 		<br/>
 		<br/>	<br/>
-		<label for="uname"><b>Login Form DevOps</b></label>
+		<label for="uname"><b>Login Form DevOpss</b></label>
 		<br/><br/><br/>
 		<form action="loginServlet" method="post">
 			<label for="uname"><b>Username</b></label>
