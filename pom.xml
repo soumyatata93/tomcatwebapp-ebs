@@ -10,6 +10,10 @@
 		<project.scm.id>github</project.scm.id>
 		<!-- <github.global.server>github</github.global.server> -->
 		<!-- <argLine>-XX:MaxPermSize=512m</argLine> -->
+		
+   <maven.compiler.source>16</maven.compiler.source>
+   <maven.compiler.target>16</maven.compiler.target>
+
 	</properties>
 
 	<dependencies>
@@ -200,8 +204,5 @@
 			</build>
 		</profile>
 	</profiles>
-	<properties>
-   <maven.compiler.source>16</maven.compiler.source>
-   <maven.compiler.target>16</maven.compiler.target>
- </properties>
+
 </project>
