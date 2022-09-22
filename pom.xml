@@ -1,12 +1,3 @@
-<properties>
-		<project.scm.id>github</project.scm.id>
-		<!-- <github.global.server>github</github.global.server> -->
-		<!-- <argLine>-XX:MaxPermSize=512m</argLine> -->
-		
-   <maven.compiler.source>16</maven.compiler.source>
-   <maven.compiler.target>16</maven.compiler.target>
-
-	</properties>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.devops.devopswebapp</groupId>
@@ -14,6 +5,14 @@
 	<packaging>war</packaging>
 	<version>1.0.0-SNAPSHOT</version>
 	<name>${project.artifactId}-${project.version}</name>
+	<properties>
+		<project.scm.id>github</project.scm.id>
+		<!-- <github.global.server>github</github.global.server> -->
+		<!-- <argLine>-XX:MaxPermSize=512m</argLine> -->
+		
+  
+
+	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
