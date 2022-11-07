@@ -3,7 +3,7 @@
 		<title>DevOpsWebApp Tomcat</title>
 	</head>
 	<body align=center>
-		<h2>Hello, DevOps World to Mounika Charan Mahesh Harshith OOHA</h2>
+		<h2>Hello ALL ..Welcome to DevOPs World</h2>
 		<h3>Find the <font color=red>DevOps Tools</font> list below.</h3>
 		<a href=LoginPage.html >Login</a>
 		<br/><br/>
