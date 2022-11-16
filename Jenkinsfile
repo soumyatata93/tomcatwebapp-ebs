@@ -27,7 +27,7 @@ stages{
             parallel{
                 stage ('Deploy to Staging'){
                     steps {
-                        sh 'mvn clean package'
+                        sh 'mvn clean test'
                     }
                 }
 
