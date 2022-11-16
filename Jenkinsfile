@@ -33,7 +33,7 @@ stages{
 
                 stage ("Deployment"){
                     steps {
-                        sh 'echo "Deployment...."'
+                        deploy adapters: [tomcat7(credentialsId: 'TomcatID', path: '', url: 'http://3.110.104.177:8080')], contextPath: 'Redbus', war: '*/*.*'
                     }
                 }
             }
