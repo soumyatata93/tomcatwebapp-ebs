@@ -3,7 +3,7 @@
 		<title>DevOpsWebApp Tomcat</title>
 	</head>
 	<body align=center>
-		<h2>Hello ALL ..Welcome to Manan Venkatest Pranitha Raghevendra</h2>
+		<h2>Hello ALL ..Welcome to DevOps Session</h2>
 		<h3>Find the <font color=red>DevOps Tools</font> list below.</h3>
 		<a href=LoginPage.html >Login</a>
 		<br/><br/>
