@@ -33,7 +33,7 @@ stages{
 
                 stage ("Deployment"){
                     steps {
-                        deploy adapters: [tomcat7(credentialsId: 'Tomcat', path: '', url: 'http://15.207.21.162:8080/')], contextPath: 'Redbus', war: '*/*.*'
+                        deploy adapters: [tomcat7(credentialsId: 'TomcatID', path: '', url: 'http://13.233.11.166:8080/')], contextPath: 'Redbus', war: '*/*.*'
                     }
                 }
             }
