@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>DevOpsWebApp Tomcat</title>
+		<title>DevOpsWebApp AWS Login Page</title>
 	</head>
 	<body align=center>
 		<h2>Hello ALL ..Welcome to DevOps Session...Welcome</h2>
