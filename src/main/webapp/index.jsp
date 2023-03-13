@@ -3,7 +3,7 @@
 		<title>DevOpsWebApp AWS Login Page</title>
 	</head>
 	<body align=center>
-		<h2>Hello ALL ..Welcome to DevOps Session...Welcome</h2>
+		<h2>Hello ALL ..Welcome to AWS</h2>
 		<h3>Find the <font color=red>DevOps Tools</font> list below.</h3>
 		<a href=LoginPage.html >Login</a>
 		<br/><br/>
