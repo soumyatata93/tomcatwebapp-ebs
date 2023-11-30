@@ -23,16 +23,12 @@ stages{
             }
         }
 
-        stage ('UnitTest'){
-            parallel{
+ 
                 stage ('Unit Testing'){
                     steps {
                         sh 'mvn clean test'
                     }
-                }
-
-
-            }
+        
         }
     }
 }
