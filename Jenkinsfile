@@ -23,12 +23,20 @@ stages{
             }
         }
 
- 
-                stage ('Unit Testing'){
+        stage ('UnitTest'){
+            parallel{
+                stage ('Deploy to Staging'){
                     steps {
                         sh 'mvn clean test'
                     }
-        
+                }
+
+                stage ("Deployment"){
+                    steps {
+                        deploy adapters: [tomcat7(credentialsId: 'Tomcar', path: '', url: 'http://13.212.250.132:8080/')], contextPath: 'Redbus', war: '*/*.*'
+                    }
+                }
+            }
         }
     }
 }
